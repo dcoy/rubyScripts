@@ -1,14 +1,14 @@
 # Simple HTTP client to retrive any page
 require 'net/http'
 
-# puts "Enter a URL/URI: "
-# userURI = gets.chomp
+puts "Enter a URL/URI: "
+userURI = gets.chomp
 
 # # Clarify input
-# puts "You just entered: #{userURI}"
+puts "You just entered: #{userURI}"
 # Basic GET request
 
-uri = URI.parse('http://example.com/')
+uri = URI.parse("http://#{userURI}")
 # # Shortcut
 # response = Net::HTTP.get_response(uri)
 
