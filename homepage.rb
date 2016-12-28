@@ -29,6 +29,4 @@ response['cache-control'] # => public, max-age=2592000
 
 puts "Response code: #{response.code}" # response.code
 
-puts "Here is the response body:
-
-#{response.body}"
+puts "Here is the response body:\n\n#{response.body}"
